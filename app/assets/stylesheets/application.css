@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+.restaurant-cards {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(3, 12px);
+  grid-template-rows: repeat(3, auto); */
+  gap: 1rem;
+}
